@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/attendence"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:padding="4dp"
+
+        android:entries="@array/dept_arrays"
+        />
+    <Spinner
+        android:id="@+id/spinne5"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:padding="4dp"
+
+        android:entries="@array/sec_arrays"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:padding="4dp"
+
+        android:entries="@array/year_arrays"
+       />
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:padding="4dp"
+
+        android:entries="@array/subject_arrays"
+         />
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:padding="4dp"
+        android:entries="@array/period_arrays"
+       />
+
+
+
+
+  </LinearLayout>
+
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginBottom="31dp"
+      android:clickable="true"
+      app:backgroundTint="@color/colorPrimary"
+      app:srcCompat="@drawable/baseline_arrow"
+      android:rotation="180"/>
+
+</RelativeLayout>

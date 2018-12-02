@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ClassAttendence</string>
+    <string-array name="dept_arrays">
+        <item>Department</item>
+        <item>IT</item>
+        <item>CSE</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Chemical</item>
+        <item>Pharmacy</item>
+        <item>EEE</item>
+        <item>ECE</item>
+    </string-array>
+    <string-array name="year_arrays">
+        <item>Year</item>
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </string-array>
+    <string-array name="subject_arrays">
+        <item>Subject</item>
+        <item>Java</item>
+        <item>NPTEL</item>
+        <item>VAC</item>
+        <item>CO</item>
+        <item>DBMS</item>
+        <item>Tutorials</item>
+        <item>Coding Skills</item>
+        <item>LRAQ</item>
+        <item>ES</item>
+        <item>SE</item>
+    </string-array>
+    <string-array name="period_arrays">
+        <item>Period</item>
+        <item>1st(Morning)</item>
+        <item>2nd(Morning)</item>
+        <item>3rd(Morning)</item>
+        <item>4th(Morning)</item>
+        <item>5th(AfterNoon)</item>
+        <item>6thAfterNoon)</item>
+        <item>7th(AfterNoon)</item>
+    </string-array>
+    <string-array name="sec_arrays">
+        <item>Section</item>
+        <item>Sec-A</item>
+        <item>Sec-B</item>
+        <item>Sec-C</item>
+        <item>Sec-D</item>
+
+    </string-array>
+
+
+
+
+</resources>
